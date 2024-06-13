@@ -1,0 +1,60 @@
+.sidebar{
+    background-color: var(--gray-700);
+    border-radius: 8px;
+    /* height: 35rem; */
+}
+.cover{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    background-image: url();
+}
+
+.profile{
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.avatar{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 5px;
+    border: 3px solid var(--gray-800);
+    /* outline: 2px solid var(--green-500); */
+}
+
+.profile strong{
+    margin-top: 1rem;
+    line-height: 1.6;
+}
+
+.profile span{
+    font-size: 0.8rem;
+    line-height:1.6;
+    color: var(--gray-400);
+}
+
+.sidebar footer a{
+    background-color: transparent;
+    display: flex;
+    margin:1rem;
+    color: white;
+    border: 1px solid var(--green-300);
+    border-radius: 8px;
+    height: 25px;
+    padding: 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.sidebar footer a:hover{
+    color: var(--green-500);
+
+}
+
